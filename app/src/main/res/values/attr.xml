@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mNumberFirstText" format="string"/>
+    <attr name="mNumberSecondText" format="string"/>
+    <attr name="mNumberThirdText" format="string"/>
+    <attr name="mSymbolFirstText" format="string"/>
+    <attr name="mSymbolSecondText" format="string"/>
+    <attr name="mNumberTextColor" format="color"/>
+    <attr name="mNumberTextSize" format="dimension"/>
+
+    <declare-styleable name="CustomMathView">
+        <attr name="mNumberFirstText" />
+        <attr name="mNumberSecondText" />
+        <attr name="mNumberThirdText" />
+        <attr name="mSymbolFirstText" />
+        <attr name="mSymbolSecondText"/>
+        <attr name="mNumberTextColor" />
+        <attr name="mNumberTextSize" />
+    </declare-styleable>
+
+
+</resources>

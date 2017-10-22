@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circle_retangle"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <kisdmathbasics.edwardadmin.com.kidsmathbasics.view.MathItemView
+            android:id="@+id/mathItem1"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            custom:mNumberFirstText="10"
+            custom:mNumberSecondText="10"
+            custom:mNumberTextColor="#FFFFFF"
+            custom:mNumberTextSize="18sp"
+            custom:mNumberThirdText="10"
+            custom:mSymbolFirstText="+"
+            custom:mSymbolSecondText="-"/>
+
+        <EditText
+            android:id="@+id/input_answer1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/mathItem1"
+            android:cursorVisible="false"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true">
+
+        <kisdmathbasics.edwardadmin.com.kidsmathbasics.view.MathItemView
+            android:id="@+id/mathItem2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            custom:mNumberFirstText="15"
+            custom:mNumberSecondText="20"
+            custom:mNumberTextColor="#FFFFFF"
+            custom:mNumberTextSize="18sp"
+            custom:mNumberThirdText="10"
+            custom:mSymbolFirstText="x"
+            custom:mSymbolSecondText="-"/>
+
+        <EditText
+            android:id="@+id/input_answer2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/mathItem2"
+            android:cursorVisible="false"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true">
+
+        <kisdmathbasics.edwardadmin.com.kidsmathbasics.view.MathItemView
+            android:id="@+id/mathItem3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            custom:mNumberFirstText="42"
+            custom:mNumberSecondText="36"
+            custom:mNumberTextColor="#FFFFFF"
+            custom:mNumberTextSize="18sp"
+            custom:mNumberThirdText="9"
+            custom:mSymbolFirstText="+"
+            custom:mSymbolSecondText="÷"/>
+
+        <EditText
+            android:id="@+id/input_answer3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/mathItem3"
+            android:cursorVisible="false"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true">
+
+        <kisdmathbasics.edwardadmin.com.kidsmathbasics.view.MathItemView
+            android:id="@+id/mathItem4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            custom:mNumberFirstText="42"
+            custom:mNumberSecondText="36"
+            custom:mNumberTextColor="#FFFFFF"
+            custom:mNumberTextSize="18sp"
+            custom:mNumberThirdText="9"
+            custom:mSymbolFirstText="+"
+            custom:mSymbolSecondText="÷"/>
+
+        <EditText
+            android:id="@+id/input_answer4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/mathItem4"
+            android:cursorVisible="false"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true">
+
+        <kisdmathbasics.edwardadmin.com.kidsmathbasics.view.MathItemView
+            android:id="@+id/mathItem5"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            custom:mNumberFirstText="42"
+            custom:mNumberSecondText="36"
+            custom:mNumberTextColor="#FFFFFF"
+            custom:mNumberTextSize="18sp"
+            custom:mNumberThirdText="9"
+            custom:mSymbolFirstText="+"
+            custom:mSymbolSecondText="÷"/>
+
+        <EditText
+            android:id="@+id/input_answer5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/mathItem5"
+            android:cursorVisible="false"
+            android:inputType="numberDecimal"
+            android:maxLength="4"
+            />
+    </RelativeLayout>
+</LinearLayout>
